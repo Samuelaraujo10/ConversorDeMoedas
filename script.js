@@ -22,7 +22,6 @@ amount.addEventListener("input", () => {
 form.onsubmit = (event) => {
     event.preventDefault()
 
-    
     switch (currency.value) {
         case "USD":
             convertCurrency(amount.value, USD, "US$")
